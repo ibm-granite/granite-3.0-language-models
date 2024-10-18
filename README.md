@@ -1,5 +1,3 @@
-# granite-3.0-models
-
 <p align="center">
   <img src="figures/granite-3_0-language-models-3x-v1.png" />
 </p>
@@ -11,19 +9,13 @@
 
 ---
 ## Introduction to Granite 3.0 Language Models
-
-
 We introduce the Granite 3.0 language models, a new set of lightweight, state-of-the-art, open foundation models that natively support multilinguality, coding, reasoning, and tool usage, including the potential to be run on constrained compute resources. All the models are publicly released under an Apache 2.0 license for both research and commercial use. The models' data curation and training procedure were designed for enterprise usage and customization in mind, with a process that evaluates datasets for governance, risk and compliance (GRC) criteria, in addition to IBM's standard data clearance process and document quality checks. Specifically, Granite 3.0 includes 4 different models of varying sizes:
+- Dense Models: A 2B and 8B parameter model, trained on 12 trillion tokens in total.
+- Mixture-of-Expert (MoE) Models: A sparse 1B and 3B MoE model, with 400M and 800M activated parameters respectively, trained on 10 trillion tokens in total.
 
-Dense Models: A 2B and 8B parameter model, trained on 12 trillion tokens in total.
-Mixture-of-Expert (MoE) Models: A sparse 1B and 3B MoE model, with 400M and 800M activated parameters respectively, trained on 10 trillion tokens in total.
+Accordingly, these options provide a range of models with different compute requirements to choose from, with appropriate trade-offs with their performance on downstream tasks. At each scale, we release a base model — checkpoints of models after pretraining, as well as instruct checkpoints — models finetuned for dialogue, instruction-following, helpfulness, and safety.
 
-Accordingly, these options provide a range of models with different compute requirements to choose from, with appropriate trade-offs with their performance on downstream tasks. At each scale, we release a base model — checkpoints of models after pretraining, as well as instruct checkpoints —
-models finetuned for dialogue, instruction-following, helpfulness, and safety.
-
-
-
-We introduce the Granite series of decoder-only code models for code generative tasks (e.g., fixing bugs, explaining code, documenting code), trained with code written in 116 programming languages. A comprehensive evaluation of the Granite Code model family on diverse tasks demonstrates that our models consistently reach state-of-the-art performance among available open source code LLMs.  
+<!-- We introduce the Granite series of decoder-only code models for code generative tasks (e.g., fixing bugs, explaining code, documenting code), trained with code written in 116 programming languages. A comprehensive evaluation of the Granite Code model family on diverse tasks demonstrates that our models consistently reach state-of-the-art performance among available open source code LLMs.  
 
 The key advantages of Granite Code models include:
 * All-rounder Code LLM: Granite Code models achieve competitive or state-of-the-art performance on different kinds of code-related tasks, including code generation, explanation, fixing, editing, translation, and more. Demonstrating their ability to solve diverse coding tasks.
@@ -34,7 +26,7 @@ The family of **Granite Code Models** comes in two main variants:
 * Granite Code Base Models: base foundational models designed for code-related tasks (e.g., code repair, code explanation, code synthesis).
 * Granite Code Instruct Models: instruction following models finetuned using a combination of Git commits paired with human instructions and open source synthetically generated code instruction datasets.
 
-Both base and instruct models are available in sizes of 3B, 8B, 20B, and 34B parameters.
+Both base and instruct models are available in sizes of 3B, 8B, 20B, and 34B parameters. -->
 
 ## Data Collection
 <!-- Our process to prepare code pretraining data involves several stages. First, we collect a combination of publicly available datasets (e.g., GitHub Code Clean, Starcoder data), public code repositories, and issues from GitHub. Second, we filter the code data collected based on the programming language in which data is written (which we determined based on file extension). Then, we also filter out data with low code quality. Third, we adopt an aggressive deduplication strategy that includes both exact and fuzzy deduplication to remove documents having (near) identical code content. Finally, we apply a HAP content filter that reduces models' likelihood of generating hateful, abusive, or profane language. We also make sure to redact Personally Identifiable Information (PII) by replacing PII content (e.g., names, email addresses, keys, passwords) with corresponding tokens (e.g., ⟨NAME⟩, ⟨EMAIL⟩, ⟨KEY⟩, ⟨PASSWORD⟩). We also scan all datasets using ClamAV to identify and remove instances of malware in the source code. In addition to collecting code data for model training, we curate several publicly available high-quality natural language datasets for improving the model’s proficiency in language understanding and mathematical reasoning. -->
