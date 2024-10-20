@@ -38,18 +38,18 @@ We develop the post-training (instruct) variants of our Granite 3.0 models by fu
 ## Evaluation Results
 We conduct an extensive evaluation of Granite 3.0 language models on a comprehensive list of benchmarks. We evaluate our based models on benchmarks covering a variety of domains, namely *Human Exams*, *Commonsense*, *Reading Comprehension*, *Reasoning*, *Code*, and **Math**. In addition, the evaluation of our instruct models also covers benchmarks in *Instruction Following* and *Multilinguality*.
 
-Our evaluation results show that our Granite 3.0 models outperform models of similar parameter sizes on many of these benchmarks, demonstrating strong performance particularly in knowledge, reasoning, function calling, multilingual, code support, as well as enterprise tasks like cybersecurity and retrieval augmented generation (RAG). The following figures show the average performance of base and instruct models along with other models of similar size. We provide further evaluation results in [Granite 3.0 Language Models technical report](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/granite-3-language-models.pdf).
+Our evaluation results show that our Granite 3.0 models outperform models of similar parameter sizes (as demonstrated in the Figures 1 and 2). Furthemore, our models show a strong performance particularly in knowledge, reasoning, function calling, multilingual, code support, as well as enterprise tasks like cybersecurity and retrieval augmented generation (RAG). We report our comprehensive evaluation results in [Granite 3.0 Language Models technical report](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/granite-3-language-models.pdf).
 
 <figure>
-  <img src="./figures/coming_soon.jpg""
+  <img src="./figures/base-models-performance.png"
   alt="Base models performance.">
-  <figcaption>Average performance of base models across 19 tasks from 6 domains.</figcaption>
+  <figcaption>Fig 1. Average performance of base models across 19 tasks from 6 domains.</figcaption>
 </figure>
 
 <figure>
-  <img src="./figures/coming_soon.jpg""
+  <img src="./figures/instruct-models-performance.png"
   alt="Instruct models performance.">
-  <figcaption>Average performance of instruct models across 23 tasks from 8 domains.</figcaption>
+  <figcaption>Fig 2. Average performance of instruct models across 23 tasks from 8 domains.</figcaption>
 </figure>
 
 ## How to Use our Models?
