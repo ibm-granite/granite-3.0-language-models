@@ -12,8 +12,8 @@
 Granite 3.0 language models are a new set of lightweight state-of-the-art, open foundation models that natively support multilinguality, coding, reasoning, and tool usage, including the potential to be run on constrained compute resources. All the models are publicly released under an Apache 2.0 license for both research and commercial use. The models' data curation and training procedure were designed for enterprise usage and customization in mind, with a process that evaluates datasets for governance, risk and compliance (GRC) criteria, in addition to IBM's standard data clearance process and document quality checks.
 
 Granite 3.0 includes 4 different models of varying sizes:
-- Dense Models: A 2B and 8B parameter model, trained on 12 trillion tokens in total.
-- Mixture-of-Expert (MoE) Models: A sparse 1B and 3B MoE model, with 400M and 800M activated parameters respectively, trained on 10 trillion tokens in total.
+- Dense Models: 2B and 8B parameter models, trained on 12 trillion tokens in total.
+- Mixture-of-Expert (MoE) Models: Sparse 1B and 3B MoE models, with 400M and 800M activated parameters respectively, trained on 10 trillion tokens in total.
 
 Accordingly, these options provide a range of models with different compute requirements to choose from, with appropriate trade-offs with their performance on downstream tasks. At each scale, we release a base model — checkpoints of models after pretraining, as well as instruct checkpoints — models finetuned for dialogue, instruction-following, helpfulness, and safety.
 
