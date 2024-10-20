@@ -1,4 +1,4 @@
-# Contributing to Granite Code Models
+# Contributing to Granite 3.0 Language Models
 We want to make contributing to this project as straightfoward as possible.
 
 ## :memo: Issues
