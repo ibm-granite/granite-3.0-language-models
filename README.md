@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figures/granite-3_0-language-models-3x-v1.png" />
+  <img src="./figures/granite-3_0-language-models-3x-v1.png" />
 </p>
 
 <p align="center">
