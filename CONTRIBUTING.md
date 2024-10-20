@@ -8,7 +8,7 @@ We use GitHub issues to track public bugs and inconsistencies. Plese follow thes
 
 ## :hammer: Pull Requests
 At present, we only welcome pull requests to correct bugs and inconsistencies. Before submitting a pull request please make sure to:
-1. Create an issue by following [these](#📝-issues) instructions, and make sure to link it to your pull request.
+1. Create an issue by following the instructions provided in the previous section, and make sure to link it to your pull request.
 2. Fork the repository and create your branch from `main`.
 3. Please make sure your code lints.
 4. Ensure the test suite passes.
