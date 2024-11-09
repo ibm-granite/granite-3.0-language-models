@@ -41,13 +41,13 @@ We conduct an extensive evaluation of Granite 3.0 language models on a comprehen
 Our evaluation results show that our Granite 3.0 models outperform models of similar parameter sizes (as we show in the Figures 1 and 2). Furthemore, our models demonstrate a strong performance particularly in knowledge, reasoning, function calling, multilingual, code support, as well as enterprise tasks such as cybersecurity and retrieval augmented generation (RAG). We report our comprehensive evaluation results in [Granite 3.0 Language Models technical report](https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf).
 
 <figure>
-  <img src="https://github.com/ibm-granite/granite-3.0-language-models/blob/main/figures/base-models-performance.pdf"
+  <img src="https://github.com/ibm-granite/granite-3.0-language-models/blob/main/figures/base-models-performance.png"
   alt="Base models performance.">
   <figcaption>Fig 1. Average performance of base models across 19 tasks from 6 domains.</figcaption>
 </figure>
 
 <figure>
-  <img src="https://github.com/ibm-granite/granite-3.0-language-models/blob/main/figures/instruct-models-performance.pdf"
+  <img src="https://github.com/ibm-granite/granite-3.0-language-models/blob/main/figures/instruct-models-performance.png"
   alt="Instruct models performance.">
   <figcaption>Fig 2. Average performance of instruct models across 23 tasks from 8 domains.</figcaption>
 </figure>
