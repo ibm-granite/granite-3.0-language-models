@@ -124,3 +124,16 @@ All Granite 3.0 Language Models are distributed under [Apache 2.0](./LICENSE) li
 
 ## Would you like to provide feedback?
 Please let us know your comments about our family of language models by visiting our [collection](https://huggingface.co/collections/ibm-granite/granite-30-language-models-66fdb59bbb54785c3512114f). Select the repository of the model you would like to provide feedback about. Then, go to *Community* tab, and click on *New discussion*. Alternatively, you can also post any questions/comments on our [github discussions page](https://github.com/orgs/ibm-granite/discussions).
+
+## Citation
+If you find granite models useful, please cite:
+
+```
+@misc{granite2024granite,
+  title={Granite 3.0 Language Models},
+  url={https://github.com/ibm-granite/granite-3.0-language-models/},
+  author={Granite Team, IBM},
+  month={October},
+  year={2024}
+}
+```
