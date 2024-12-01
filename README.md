@@ -4,7 +4,9 @@
 
 <p align="center">
   :books: <a href="https://github.com/ibm-granite/granite-3.0-language-models/blob/main/paper.pdf">Paper</a>&nbsp | :hugs: <a href="https://huggingface.co/collections/ibm-granite/granite-30-language-models-66fdb59bbb54785c3512114f">HuggingFace Collection</a>&nbsp | 
-  :speech_balloon: <a href="https://github.com/orgs/ibm-granite/discussions">Discussions Page</a>&nbsp
+  :speech_balloon: <a href="https://github.com/orgs/ibm-granite/discussions">Discussions Page</a>&nbsp | <a href="https://replicate.com/ibm-granite/granite-3.0-2b-instruct">
+  <img src="https://replicate.com/ibm-granite/granite-3.0-2b-instruct/badge" alt="Try a demo on Replicate">
+</a>&nbsp
 <br>
 
 ---
